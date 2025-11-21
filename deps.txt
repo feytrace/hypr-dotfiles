@@ -1,0 +1,4 @@
+quickshell
+kitty
+hyprland
+hyprpaper
