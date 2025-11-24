@@ -1,3 +1,5 @@
+wofi
+wayland 
 quickshell
 kitty
 hyprland

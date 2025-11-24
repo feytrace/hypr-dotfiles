@@ -10,7 +10,7 @@ PanelWindow {
     }
 
     implicitHeight: 30
-    color: "#000000"   // black bar
+    color: "#282828"   // black bar
 
     property int currentWorkspace: 1
 
@@ -33,13 +33,13 @@ PanelWindow {
                     height: 20
                     radius: 4
                     border.width: (index + 1) === currentWorkspace ? 2 : 1
-                    border.color: (index + 1) === currentWorkspace ? "#00FF55" : "#444444"
-                    color: (index + 1) === currentWorkspace ? "#003300" : "#111111"
+                    border.color: (index + 1) === currentWorkspace ? "#ebdbb2" : "#444444"
+                    color: (index + 1) === currentWorkspace ? "#282828" : "#111111"
 
                     Text {
                         anchors.centerIn: parent
                         text: index + 1
-                        color: (index + 1) === currentWorkspace ? "#00FF55" : "#888888"
+                        color: (index + 1) === currentWorkspace ? "#ebdbb2" : "#888888"
                         font.family: "monospace"
                     }
                 }
@@ -55,7 +55,7 @@ PanelWindow {
 
         Text {
             id: hyprmode
-            color: "#FFFB00"
+            color: "#fabd2f"
             font.family: "monospace"
             verticalAlignment: Text.AlignVCenter
 
@@ -78,7 +78,7 @@ PanelWindow {
 
         Text {
             id: battery
-            color: "#00FF55"
+            color: "#b8bb26"
             font.family: "monospace"
             verticalAlignment: Text.AlignVCenter
 
@@ -101,7 +101,7 @@ PanelWindow {
 
         Text {
             id: clock
-            color: "#00FF55"
+            color: "#b8bb26"
             font.family: "monospace"
             verticalAlignment: Text.AlignVCenter
 
